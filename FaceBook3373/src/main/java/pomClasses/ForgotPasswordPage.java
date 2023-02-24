@@ -15,8 +15,12 @@ public class ForgotPasswordPage {
 	private WebElement forgottext ; 
 	
 	
+//	@FindBy (xpath = "//input[@id='identify_email12345']")
+//	private WebElement emailidOrPhoneNo12546 ; 
+	
 	@FindBy (xpath = "//input[@id='identify_email']")
 	private WebElement emailidOrPhoneNo ; 
+
 
 	@FindBy (xpath = "//button[@id='did_submit']")
 	private WebElement searchButton ; 
