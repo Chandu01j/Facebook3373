@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Failed suite [SuiteFacebook]]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="EdgeTest(failed)(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="testNgTest.TestNgClass1">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="LauchBrowser"/>
+          <include name="clearPOMObjects"/>
+          <include name="goToSignUpForm"/>
+          <include name="ctreatePOMObjects"/>
+          <include name="VerifyPrivacyPolicyLink"/>
+          <include name="closedbrowser"/>
+          <include name="BackPage"/>
+        </methods>
+      </class> <!-- testNgTest.TestNgClass1 -->
+    </classes>
+  </test> <!-- EdgeTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [SuiteFacebook]] -->

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-24T13:03:25 IST" name="Suite" finished-at="2023-02-24T13:03:42 IST" duration-ms="16242">
+    <groups>
+    </groups>
+    <test started-at="2023-02-24T13:03:25 IST" name="ChromeTest" finished-at="2023-02-24T13:03:42 IST" duration-ms="16242">
+      <class name="testNgTest.TestNgclass_3">
+        <test-method is-config="true" signature="LauchBrowser(java.lang.String)[pri:0, instance:testNgTest.TestNgclass_3@635eaaf1]" started-at="2023-02-24T13:03:25 IST" name="LauchBrowser" finished-at="2023-02-24T13:03:27 IST" duration-ms="1704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LauchBrowser -->
+        <test-method is-config="true" signature="ctreatePOMObjects()[pri:0, instance:testNgTest.TestNgclass_3@635eaaf1]" started-at="2023-02-24T13:03:27 IST" name="ctreatePOMObjects" finished-at="2023-02-24T13:03:27 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ctreatePOMObjects -->
+        <test-method is-config="true" signature="goToSignUpForm()[pri:0, instance:testNgTest.TestNgclass_3@635eaaf1]" started-at="2023-02-24T13:03:27 IST" name="goToSignUpForm" finished-at="2023-02-24T13:03:28 IST" duration-ms="1178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpForm -->
+        <test-method signature="VerifyCreateNewAccount()[pri:0, instance:testNgTest.TestNgclass_3@635eaaf1]" started-at="2023-02-24T13:03:28 IST" name="VerifyCreateNewAccount" finished-at="2023-02-24T13:03:41 IST" duration-ms="12231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCreateNewAccount -->
+        <test-method is-config="true" signature="BackPage(org.testng.ITestResult)[pri:0, instance:testNgTest.TestNgclass_3@635eaaf1]" started-at="2023-02-24T13:03:41 IST" name="BackPage" finished-at="2023-02-24T13:03:41 IST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyCreateNewAccount status=SUCCESS method=TestNgclass_3.VerifyCreateNewAccount()[pri:0, instance:testNgTest.TestNgclass_3@635eaaf1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BackPage -->
+        <test-method is-config="true" signature="goToSignUpForm()[pri:0, instance:testNgTest.TestNgclass_3@635eaaf1]" started-at="2023-02-24T13:03:41 IST" name="goToSignUpForm" finished-at="2023-02-24T13:03:41 IST" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSignUpForm -->
+        <test-method signature="VerifyLogin()[pri:0, instance:testNgTest.TestNgclass_3@635eaaf1]" started-at="2023-02-24T13:03:41 IST" name="VerifyLogin" finished-at="2023-02-24T13:03:41 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method is-config="true" signature="BackPage(org.testng.ITestResult)[pri:0, instance:testNgTest.TestNgclass_3@635eaaf1]" started-at="2023-02-24T13:03:41 IST" name="BackPage" finished-at="2023-02-24T13:03:41 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLogin status=SUCCESS method=TestNgclass_3.VerifyLogin()[pri:0, instance:testNgTest.TestNgclass_3@635eaaf1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BackPage -->
+        <test-method is-config="true" signature="clearPOMObjects()[pri:0, instance:testNgTest.TestNgclass_3@635eaaf1]" started-at="2023-02-24T13:03:41 IST" name="clearPOMObjects" finished-at="2023-02-24T13:03:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObjects -->
+        <test-method is-config="true" signature="closedbrowser()[pri:0, instance:testNgTest.TestNgclass_3@635eaaf1]" started-at="2023-02-24T13:03:41 IST" name="closedbrowser" finished-at="2023-02-24T13:03:42 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedbrowser -->
+      </class> <!-- testNgTest.TestNgclass_3 -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
